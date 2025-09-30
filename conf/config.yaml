@@ -1,0 +1,29 @@
+root_folder: "azure_script/data/honeybee/"         
+dataset_name: "honeybee"                          
+dataset: "azure_script/data/honeybee/sequence0.npz" 
+output: "dqn_final"
+
+opt_max_calls: 25
+budget: 30                                       
+tolerance: 30                                    
+
+gamma: 0.9
+tau: 0.001                                    
+
+initial_exploration: 0.7                       
+exploration_decay: 0.9982
+minimum_exploration: 0.01
+
+dropout: 0.05
+lr: 0.0005
+weight_decay: 1e-2
+
+betas:
+  - 0.9
+  - 0.999
+
+batch_size: 32
+buffer_capacity: 10000
+pool_size: 16            
+num_episodes: 4000
+num_cpus: 6
