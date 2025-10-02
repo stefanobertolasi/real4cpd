@@ -21,3 +21,6 @@
 -->
 >**Abstract** - *Change Point Detection algorithms often rely on hyperparameters that are difficult to tune and highly sensitive to the specific characteristics of the time series. Active Learning offers a promising solution for tuning these hyperparameters by minimizing annotation costs through selective querying of the most informative samples. While classical active learning methods rely on heuristic strategies and recent data-driven approaches employ Reinforcement Learning to optimize query policies, their use in Change Point Detection remains underexplored. In this paper, we propose ReAL4CPD, a novel reinforcement learning based active learning algorithm designed to efficiently guide the change point detection in time series. Our approach improves the generalization of query strategies across diverse datasets, outperforming existing uncertainty-based active learning methods. Experimental results validate that ReAL4CPD effectively reduces labeling effort while enhancing change point detection accuracy.*
 
+<h2>
+  Set up
+</h2>
