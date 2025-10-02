@@ -1,0 +1,24 @@
+[project]
+name = "real4cpd"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "astropy==7.1.0",
+    "asttokens==3.0.0",
+    "beartype==0.21.0",
+    "click==8.2.1",
+    "cma>=4.4.0",
+    "colorama==0.4.6",
+    "comm==0.2.2",
+    "gymnasium>=1.2.1",
+    "hydra-core>=1.3.2",
+    "matplotlib==3.10.3",
+    "numpy==2.2.6",
+    "pywavelets==1.8.0",
+    "scikit-learn==1.7.0",
+    "scipy==1.15.3",
+    "torch>=2.8.0",
+    "tqdm==4.67.1",
+]
