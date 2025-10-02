@@ -24,3 +24,12 @@
 <h2>
   Set up
 </h2>
+
+Clone the repo and enter it:
+<pre>
+```bash
+git clone 
+cd real4cpd
+```
+</pre>
+
