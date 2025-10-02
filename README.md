@@ -31,5 +31,15 @@ Clone the repo and enter it:
   git clone https://github.com/stefanobertolasi/real4cpd.git
   cd real4cpd
 ```
+Create the environment and activate it:
 
+```bash
+conda env create -f condaenv.yml
+conda activate .venv
+```
 
+Initialize the uv project and synchronize it
+```bash
+uv init
+uv sync
+```
