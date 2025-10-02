@@ -38,7 +38,7 @@ conda env create -f condaenv.yml
 conda activate .venv
 ```
 
-Initialize the uv project and synchronize it
+Initialize the <a href="https://github.com/astral-sh/uv">uv</a> project and synchronize it
 ```bash
 uv init
 uv sync
