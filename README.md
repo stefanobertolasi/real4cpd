@@ -26,10 +26,10 @@
 </h2>
 
 Clone the repo and enter it:
-<pre>
+
 ```bash
-git clone 
-cd real4cpd
+  git clone https://github.com/stefanobertolasi/real4cpd.git
+  cd real4cpd
 ```
-</pre>
+
 
