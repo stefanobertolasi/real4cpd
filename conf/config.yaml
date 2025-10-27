@@ -1,11 +1,14 @@
-root_folder: "azure_script/data/honeybee/"         
+root_folder: "data/honeybee/"         
 dataset_name: "honeybee"                          
-dataset: "azure_script/data/honeybee/sequence0.npz" 
+dataset: "data/honeybee/sequence0.npz" 
 output: "dqn_final"
+checkpoint_root: "checkpoints/ckpt_honeybee_final.pt"
 
 opt_max_calls: 25
 budget: 30                                       
-tolerance: 30                                    
+tolerance: 15   
+level_wavelet: 3
+window_size: 30
 
 gamma: 0.9
 tau: 0.001                                    
