@@ -34,12 +34,7 @@ Clone the repo and enter it:
 Create the environment and activate it:
 
 ```bash
-conda env create -f condaenv.yml
-conda activate .venv
+  conda env create -f condaenv.yml
+  conda activate real4cpd
 ```
 
-Initialize the <a href="https://github.com/astral-sh/uv">uv</a> project and synchronize it
-```bash
-uv init
-uv sync
-```
