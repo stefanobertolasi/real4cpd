@@ -148,6 +148,8 @@ class SegmentationEnv(gym.Env):
         else:
             self.segmenter.add_supervised_interval([start, end])
 
+        # if self.num_steps >= 10:
+        #     self.segmenter.update()
         self.segmenter.update()
         self.num_steps += 1
         self.unlabeled_set.remove(idx)
